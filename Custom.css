@@ -1,0 +1,128 @@
+/* LAYOUT */
+
+#elements-content.source-code {
+	background:#112435;
+}
+
+#elements-content .highlight {
+	color:#d4d4d4;
+}
+
+#elements-content li.hovered {
+	background:rgba(255, 255, 255, .05) !important;
+}
+
+#elements-content li.selected {
+	background:rgba(200, 230, 255, .12) !important;
+}
+
+
+#elements-content .parent::before {
+	content:url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+#elements-content .parent.expanded::before {
+	content:url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+
+
+/* HTML */
+#elements-content .webkit-html-comment {
+	color:#3A8BDA !important;
+}
+
+#elements-content .webkit-html-doctype {
+	color:#999 !important;
+}
+
+#elements-content .webkit-html-tag {
+	color:#7BD827 !important;
+}
+
+#elements-content .webkit-html-attribute {
+	color:#eee !important;
+}
+
+#elements-content .webkit-html-attribute-name {
+	color:#F0804F !important;
+}
+
+#elements-content .webkit-html-attribute-value {
+	color:#8DB0D3 !important;
+}
+
+#elements-content .webkit-html-text-node {
+	color:#eee !important;
+}
+
+
+
+/* CSS */
+#elements-content .webkit-html-css-node {
+	color:#bbb !important;
+}
+#elements-content .webkit-css-comment {
+	color:#3A8BDA !important;
+}
+
+#elements-content .webkit-css-selector {
+	color:#f4dd0b !important;
+}
+
+#elements-content .webkit-css-property {
+	color:#eee !important;
+}
+
+#elements-content .webkit-css-number, .webkit-css-keyword, .webkit-css-color, .webkit-css-url {
+	color:#8DB0D3 !important;
+}
+#elements-content .webkit-css-at-rule {
+	color:#F0804F !important;
+}
+#elements-content .webkit-css-important {
+	color:#F0F !important;
+}
+
+
+
+#elements-content .styles-selector {
+	color:#f00 !important;
+}
+#elements-content .webkit-css-string {
+	color:#f00 !important;
+}
+#elements-content .properties-tree .value {
+	color:#f00 !important;
+}
+
+
+
+
+
+/* JavaScript */
+#elements-content .webkit-html-js-node {
+	color:#7BD827 !important;
+}
+#elements-content .webkit-javascript-comment {
+	color:#3A8BDA !important;
+}
+
+#elements-content .webkit-javascript-keyword {
+	color:#ffff80 !important;
+}
+
+#elements-content .webkit-javascript-ident {
+	color:#8DB0D3 !important;
+}
+
+#elements-content .webkit-javascript-string {
+	color:#F0804F !important;
+}
+
+#elements-content .webkit-javascript-number {
+	color:#F0F !important;
+}
+
+#elements-content .webkit-javascript-regexp {
+	color:#F0F !important;
+}
