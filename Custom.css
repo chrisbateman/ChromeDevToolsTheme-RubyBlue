@@ -1,9 +1,10 @@
 /* BASE */
 body.platform-windows .monospace,
 body.platform-windows .source-code,
-#elements-sidebar .pane>.body .info {
+#elements-sidebar .pane>.body .info,
+.webkit-line-content {
 	background:#112435 !important;
-	color:#BBB !important;
+	color:#d5d5d5 !important;
 }
 
 #elements-sidebar .editing,
@@ -232,3 +233,32 @@ color:#ccc!important;
 }
 
 
+
+
+.editing {
+	color:#000 !important;
+}
+.properties-tree .editing.value {
+	color:#000 !important;
+}
+.auto-complete-text, .editing .auto-complete-text {
+	color: rgb(150,150,150) !important;
+}
+ 
+ 
+.webkit-html-external-link, .webkit-html-resource-link {
+	color:#9BD !important;
+}
+ 
+ 
+ 
+.styles-section.monospace.read-only, .styles-section.monospace.read-only .monospace {
+	background-color:#223a4f !important;
+}
+.styles-section.monospace.read-only .subtitle {
+	color:#7fabce !important;
+}
+ 
+.styles-section.monospace.computed-style, .styles-section.monospace.computed-style .monospace {
+	background-color:#112435 !important;
+}
