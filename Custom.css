@@ -1,6 +1,6 @@
 /* BASE */
-body.platform-windows .monospace,
-body.platform-windows .source-code,
+body .monospace,
+body .source-code,
 #elements-sidebar .pane>.body .info,
 .webkit-line-content {
 	background:#112435 !important;
