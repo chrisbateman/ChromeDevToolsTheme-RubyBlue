@@ -168,7 +168,9 @@ color:#ccc!important;
 }
 
 
-.styles-selector {
+.styles-selector .selector,
+.styles-selector .selector-matches,
+.styles-selector .media {
 	color:#F4DD0B !important;
 }
 .webkit-css-string {
